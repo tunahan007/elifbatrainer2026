@@ -2,7 +2,7 @@
   "expo": {
     "name": "Elifba Trainer – Arapça Harf Öğrenme Oyunu",
     "slug": "ElifbaTrainer",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,13 +16,14 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["com.google.android.gms.permission.AD_ID"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.elifba.trainer",
-      "versionCode": 5
+      "versionCode": 6
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,8 +32,8 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3818927199662677~9916153898",
-          "iosAppId": "ca-app-pub-3818927199662677~9916153898"
+          "androidAppId": "ca-app-pub-3818927199662677~4618097932",
+          "iosAppId": "ca-app-pub-3818927199662677~4618097932"
         }
       ]
     ],
